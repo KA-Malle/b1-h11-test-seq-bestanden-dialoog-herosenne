@@ -43,6 +43,7 @@
             this.btnSluiten.TabIndex = 6;
             this.btnSluiten.Text = "&Sluiten";
             this.btnSluiten.UseVisualStyleBackColor = true;
+            this.btnSluiten.Click += new System.EventHandler(this.btnSluiten_Click);
             // 
             // btnVerwerken
             // 
@@ -53,6 +54,7 @@
             this.btnVerwerken.TabIndex = 5;
             this.btnVerwerken.Text = "&Verwerken";
             this.btnVerwerken.UseVisualStyleBackColor = true;
+            this.btnVerwerken.Click += new System.EventHandler(this.btnVerwerken_Click);
             // 
             // txtResultaat
             // 
@@ -73,6 +75,7 @@
             this.btnGenereer.TabIndex = 7;
             this.btnGenereer.Text = "Genereer";
             this.btnGenereer.UseVisualStyleBackColor = true;
+            this.btnGenereer.Click += new System.EventHandler(this.btnGenereer_Click);
             // 
             // Form1
             // 
